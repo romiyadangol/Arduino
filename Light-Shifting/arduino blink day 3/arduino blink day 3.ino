@@ -30,17 +30,17 @@ void setup() {
   pinMode(11, OUTPUT);
   pinMode(10, OUTPUT);
   pinMode(9, OUTPUT);
-  pinMode(8, OUTPUT);
+ 
 }
 
 // the loop function runs over and over again forever
 void loop() {
-  for(int i=13;i>=8;i--)
+  for(int i=13;i>=9;i--)
   {
     digitalWrite(i,HIGH);
     delay(50);
   }
-  for(int i=13;i>=8;i--)
+  for(int i=13;i>=9;i--)
   {
     digitalWrite(i,LOW);
     delay(50);
