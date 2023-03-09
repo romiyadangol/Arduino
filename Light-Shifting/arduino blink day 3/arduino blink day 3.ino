@@ -10,9 +10,9 @@
   model, check the Technical Specs of your board at:
   https://www.arduino.cc/en/Main/Products
 
-  modified 8 May 2014
-  by Scott Fitzgerald
-  modified 2 Sep 2016
+  modified 8 May 2014.
+  by Scott Fitzgerald.
+  modified 2 Sep 2016.
   by Arturo Guadalupi
   modified 8 Sep 2016
   by Colby Newman
@@ -30,17 +30,18 @@ void setup() {
   pinMode(11, OUTPUT);
   pinMode(10, OUTPUT);
   pinMode(9, OUTPUT);
+  pinMode(8, OUTPUT);
  
 }
 
 // the loop function runs over and over again forever
 void loop() {
-  for(int i=13;i>=9;i--)
+  for(int i=13;i>=8;i--)
   {
     digitalWrite(i,HIGH);
     delay(50);
   }
-  for(int i=13;i>=9;i--)
+  for(int i=13;i>=8;i--)
   {
     digitalWrite(i,LOW);
     delay(50);
