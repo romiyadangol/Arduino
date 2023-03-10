@@ -20,7 +20,7 @@ sine
 ground
 led
 
-3.
+#3.
 --led 2
 ground
 74hc76
