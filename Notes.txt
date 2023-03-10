@@ -12,7 +12,7 @@ sw-spst 2
 power
 ground
 
-2.
+#2.
 --generator mode
 sine
 -amplitude-5
