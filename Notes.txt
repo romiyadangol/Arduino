@@ -12,7 +12,7 @@ sw-spst 2
 power
 ground
 
-#2.
+
 --generator mode
 sine
 -amplitude-5
@@ -20,7 +20,7 @@ sine
 ground
 led
 
-#3.
+
 --led 2
 ground
 74hc76
@@ -29,8 +29,8 @@ power
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
-#1
-4.
+#2
+.
 7 SEG-COM-CATHODE
 7447
 SWITCH(SPST)
@@ -38,7 +38,7 @@ GROUND
 POWER
 74490
 
-5.
+
 3WATT10K
 BC547
 LED-RED
